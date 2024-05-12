@@ -1,4 +1,4 @@
 # Diffusion-Pipeline
-In this project, stable diffusion pipeline is created by using HuggingFace's diffusers pipeline. Main difference is that variational autoencoders are used to convert data from image space to latent space.
+In this project, stable diffusion pipeline is created by using HuggingFace's diffusers pipeline. In this project, stable diffusion pipeline is trained using variational autoencoders. Hence, image space is converted into latent space using variational autoencoders.
 
-![](images/Stable_Diffusion_architecture.png?raw=true "Stable diffusion Architecture")
+                                      ![](images/Stable_Diffusion_architecture.png?raw=true "Stable diffusion Architecture")
