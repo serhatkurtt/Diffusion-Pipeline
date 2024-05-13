@@ -1,8 +1,8 @@
 # UNCONDITIONAL IMAGE GENERATION 
-In this project, a stable diffusion pipeline is implemented and fine-tuned using HuggingFace's Diffusers library. Several features are integrated into HuggingFace's diffuser pipeline.
+In this project, a stable diffusion pipeline is implemented and fine-tuned using HuggingFace's Diffusers pipeline. 
 
-*  Image data is converted into latent space using variational autoencoders
-*  Dreambooth fine-tuning with unconditional image generation is implemented.
+*  Image data is converted into latent space using pre-trained variational autoencoders
+*  Dreambooth fine-tuning with unconditional image generation in latent space is implemented.
 
 
 # Latent Diffusion-Pipeline
