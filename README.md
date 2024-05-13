@@ -11,6 +11,6 @@ In this project, a stable diffusion pipeline is implemented using HuggingFace's 
 Dreambooth is a fine-tuning technique to create personalized images while preserving prior informations learned in training phase to avoid overfitting. Prior-preserving loss function is used in order to prevent overfitting. In this project, Variational autoencoders are also integrated into HuggingFace's Dreambooth-training pipeline. Besides, the goal of the project is unconditional image generation. Hence, text embeddings are removed from the Dreambooth pipeline, and the entire pipeline synthesizes personalized unconditional images.
 
 # Inference 
-In order to infer images fro Dreambooth pipeline, data with random distribution is given as input. Then, u-net is used for predicting the noise at each time-step. Then noise eliminated data is converted into image space using variational autoencoder. Finally unconditional personalized images are produced.
+In order to infer images from the Dreambooth pipeline, data with a normal distribution is given as input. Then, a U-Net is used to predict the noise at each time-step. Subsequently, noise-eliminated data is converted into image space using a variational autoencoder. Finally, unconditional personalized images are produced.
 
 
