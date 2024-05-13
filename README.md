@@ -1,6 +1,6 @@
 # Latent Diffusion-Pipeline
 
-In this project, a stable diffusion pipeline is implemented using HuggingFace's Diffusers pipeline framework. Pre-trained variational autoencoders are integrated into the diffusion pipeline to convert the data from image space to latent space. This enables the creation of more realistic images and reduces training time. Then U-net is trained for denoising and. Whole pipeline is visualized in the figure below.
+In this project, a stable diffusion pipeline is implemented using HuggingFace's Diffusers pipeline framework. Pre-trained variational autoencoders are integrated into the diffusion pipeline to convert the data from image space to latent space. This enables the creation of more realistic images and reduces training time. Then U-net is trained for denoising. Whole pipeline is visualized in the figure below. DDIM (Denoising Diffusion Implicit Models) sampler is used to speed up sampling process
 
 
 
